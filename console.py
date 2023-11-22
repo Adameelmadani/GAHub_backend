@@ -17,9 +17,9 @@ classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
            "Place": Place, "Review": Review, "State": State, "User": User}
 
 
-class HBNBCommand(cmd.Cmd):
-    """ HBNH console """
-    prompt = '(hbnb) '
+class GAHUBCommand(cmd.Cmd):
+    """ GAHub console """
+    prompt = '(gahub) '
 
     def do_EOF(self, arg):
         """Exits console"""
@@ -161,4 +161,4 @@ class HBNBCommand(cmd.Cmd):
             print("** class doesn't exist **")
 
 if __name__ == '__main__':
-    HBNBCommand().cmdloop()
+    GAHUBCommand().cmdloop()
