@@ -1,2 +1,1 @@
-# GAHub_backend
-Backend of GAHub
+This is the backend of GAHub
